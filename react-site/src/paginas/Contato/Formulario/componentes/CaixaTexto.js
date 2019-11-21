@@ -26,7 +26,6 @@ function CaixaTexto (props) {
         props.mudaEstado(name, value)
     }
 
-
     return (
         <input
         name={props.name}
