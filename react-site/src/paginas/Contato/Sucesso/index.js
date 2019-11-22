@@ -12,7 +12,7 @@ function Sucesso (props) {
             >
             Voltar
             </Botao>
-        </div>
+        </div> 
     )
 }
 

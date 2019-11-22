@@ -4,10 +4,10 @@ import './styles.css'
 
  function Header (props) {
      return (
-         <section className='home-header'>
-             <h1>A era da comunicação intergalática! </h1>
+         <section className={props.className}>
+            <h1>{props.children}</h1>
          </section>
      )
  }
-
+ 
  export default Header

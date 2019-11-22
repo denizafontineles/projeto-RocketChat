@@ -30,11 +30,10 @@ class Menu extends React.Component {
                       Menu
                   </span>
                   <ul className = {classesOpcoes}>
-                      <li>
-                      <Link to='/' className='navbar-links__ativo'>Home</Link>
-                      </li>
-                      <li><Link to='/contato' className='navbar-links__ativo'> Contato</Link></li>
+                      <li><Link to='/' className='navbar-links__ativo'>Home</Link></li>
+                      <li><Link to='/contato' className='navbar-links__ativo'>Contato</Link></li>
                       <li><Link to='/chat' className='navbar-links__ativo'>Chat</Link></li>
+                      <li><Link to='/blog' className='navbar-links__ativo'>Blog</Link></li>
                   </ul>
               </div>
           )

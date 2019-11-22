@@ -11,8 +11,7 @@ function Nav () {
             <img 
             src={Logo} 
             alt='Logotipo do Rocketchat'
-            className='navbar-logo'></img>
-        
+            className='navbar-logo'></img>  
         <Menu />
 
         </nav>
